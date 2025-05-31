@@ -11,6 +11,7 @@ public class ConexionManager {
 	private static final String PASSWORD = "3252";
 	
 	public static Connection obtenerConexion() throws SQLException {
+		
 		return DriverManager.getConnection(URL, USER, PASSWORD);
 		
 	}
